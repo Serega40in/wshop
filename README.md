@@ -1,3 +1,6 @@
-# Women's clothing online store by Angular 5
+# Women's clothing online store
+Elementary fast online store by Angular 5
 
-# Интернет магазин женской одежды на Ангуляр 5
+RU
+# Интернет магазин женской одежды
+Элементарный быстрый интернет магазин средствами Ангуляр 5
