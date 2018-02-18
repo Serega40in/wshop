@@ -1,0 +1,10 @@
+<div *ngIf="product">
+
+  <h2>{{ product.name | uppercase }}</h2>
+  <div><img src="{{product.img}}"></div>
+  <div><span>Описание: </span>{{product.description}}</div>
+  <p><span>Цена:</span> {{product.price}}</p>
+  
+</div>
+<button>Заказать</button>
+<button (click)="goBack()">Назад</button>

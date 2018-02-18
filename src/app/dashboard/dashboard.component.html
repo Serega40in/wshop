@@ -1,0 +1,12 @@
+<h3>Топовая одежда</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let product of products" class="col-1-4"
+    routerLink="/detail/{{product.id}}">
+    <div class="module hero">
+      <h4>{{product.name}}</h4>
+      <img alt="{{product.name}}" src="{{product.img}}">
+  	  <p>{{product.price}}</p>
+  	  <button>Заказать</button>
+    </div>
+  </a>
+</div>
